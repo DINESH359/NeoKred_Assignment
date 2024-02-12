@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+ 
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  #markdown-container {
+    width: 49%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  #markdown-input {
+    width: 100%;
+    height: 200px;
+    resize: vertical;
+  }
+  
+  
+  #html-container {
+    width: 49%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  
+  .syntax-highlighter {
+    overflow: auto;
+    height: 200px;
+  }
+  
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+  

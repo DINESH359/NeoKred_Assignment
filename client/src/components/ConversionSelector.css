@@ -1,0 +1,39 @@
+.ConversionSelector {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .ConversionSelector h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .toggleContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .toggleOption {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 5px;
+  }
+  
+  .toggleOption label {
+    display: block;
+  }
+
+  .toggleOption:nth-child(1) {
+    background-color: #ffe6e6; 
+  }
+  
+  .toggleOption:nth-child(2) {
+    background-color: #e6f7ff; 
+  }
+  
